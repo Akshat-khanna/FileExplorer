@@ -1,0 +1,49 @@
+.tree {
+  margin-top: 50px;
+  color: #222;
+}
+
+.childDivs {
+  margin-left: 25px;
+}
+
+.dirOuter {
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: #eee;
+  margin: 8px 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow-x: auto;
+}
+
+.dirOuter img {
+  height: 18px; 
+  width: auto;
+  margin-right: 10px;
+}
+
+.active, .dirOuter:hover {
+  background: rgba(220,220,220,0.7);
+}
+
+@media screen and (max-width: 768px) {
+  .childDivs {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .childDivs {
+    margin-left: 10px;
+  }
+  .dirOuter img {
+    height: 13px;
+  }
+  .dirOuter {
+    padding: 5px 10px;
+  }
+}

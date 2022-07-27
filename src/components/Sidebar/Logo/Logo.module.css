@@ -1,0 +1,29 @@
+.logo {
+  color: #333;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.logo h1 {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 550px) {
+  .logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .logo h1 {
+    margin: 10px 0;
+  }
+}

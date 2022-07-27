@@ -1,0 +1,25 @@
+.breadcrumbs {
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px 10px 10px 0;
+}
+
+.breadcrumbs button {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.breadcrumbs button:hover {
+  cursor: pointer;
+  text-decoration: dotted underline;
+}
+
+.slash {
+  margin: 0 10px;
+}
